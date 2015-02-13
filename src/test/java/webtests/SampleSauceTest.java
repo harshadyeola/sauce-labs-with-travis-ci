@@ -114,7 +114,7 @@ public class SampleSauceTest implements SauceOnDemandSessionIdProvider,
 		webDriver.set(new RemoteWebDriver(new URL("http://"
 				+ authentication.getUsername() + ":"
 				+ authentication.getAccessKey()
-				+ "@ondemand.saucelabs.com:80/wd/hub"), capabilities));
+				+ "@rtmediatesting.com:80/wd/hub"), capabilities));
 		sessionId.set(((RemoteWebDriver) getWebDriver()).getSessionId()
 				.toString());
 		return webDriver.get();
