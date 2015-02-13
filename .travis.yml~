@@ -12,6 +12,17 @@ addons:
     access_key:
       secure: "ccdfc1a4-ef9b-4f28-a514-5f17c7866d72"
 
+addons:
+  hosts:
+    - rtmediatesting.com
+
+before_script:
+  - sudo bash -c 'echo example.com > /etc/hostname'
+  - sudo service hostname restart
+  - sudo ee stack install
+  - sudo ee site delete rtmediatesting.com --no-prompt
+  - sudo ee site create rtmediatesting.com --wp 
+
 script:
   mvn test
 
