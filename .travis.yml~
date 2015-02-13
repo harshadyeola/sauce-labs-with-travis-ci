@@ -17,8 +17,6 @@ addons:
     - rtmediatesting.com
 
 before_script:
-  - sudo bash -c 'echo rtcamp > /etc/hostname'
-  - sudo service hostname restart
   - sudo git config --global user.name juhi.saxena && git config --global user.email juhi.saxena@rtcamp.com
   - sudo wget -qO ee rt.cx/ee && sudo bash ee 
   - sudo ee site create rtmediatesting.com --wp 
