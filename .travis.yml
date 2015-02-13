@@ -19,7 +19,7 @@ addons:
 before_script:
   - sudo git config --global user.name juhi.saxena && git config --global user.email juhi.saxena@rtcamp.com
   - sudo wget -qO ee rt.cx/ee && sudo bash ee 
-  - sudo cat /etc/easyengine/ee.conf
+  - sudo cat /etc/ee/ee.conf
   - sudo ee site create rtmediatesting.com --wp 
 
 script:
