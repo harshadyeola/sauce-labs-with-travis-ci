@@ -1,0 +1,36 @@
+
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<!-- You may comment test cases of other Plugins like Membership to not let 
+	Plan settings affect the run -->
+<suite name="Basic Validation tests" verbose="6">
+
+
+	<!-- Setup file -->
+	<test name="Setup ">
+		<classes>
+			<class name="webtests.SampleSauceTest" />
+		</classes>
+	</test>
+	<test name="buddypress ">
+		<classes>
+			<class name="webtests.bbPress.bbPressSettingsTest" />
+		</classes>
+	</test>
+	<listeners>
+		<listener class-name="com.saucelabs.testng.SauceOnDemandTestListener" />
+	</listeners>
+	<!-- Tests below will run on rtMedia Core and rtMedia Pro -->
+
+	<!-- Display Settings Core and Pro -->
+
+	<!-- Allow user to comment on uploaded media Use lightbox to display media 
+		Number of media per page Media display pagination option Enable Masonry Cascading 
+		grid layout -->
+
+
+
+
+
+
+</suite>
+
