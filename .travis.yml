@@ -1,0 +1,14 @@
+language:
+    - java
+
+env:
+  global:
+    - secure: lbvc4qvEClx471MnbrGysDD4U5TzGqXGeEyoBq/GP0ufGfpIowV281c6PJbJRtAtO/OGVCa+Xnymfe1uKJgCehqbkxDuIA54VCmXsxn1r+T+eg8Rjih59Jb1Q3xBZMQLjv5NWW6zaNHS0D9KXHEkbXPwVdA92owB9b/Dgq41cvg=
+    - secure: auNNpmFGCqqOXl+HiYcFkVR6TSEafaBd8bWzLBW6feg1ZKVJstmijWdLXsg206EptSG+IC3sG44wr5doAULcSlrKtdtrRkEB8C36UanvbDL9bSCB4x6cKLdfNekvlVE9N655uqbKfgWUbuJk/ZpLdoxU8GJLGl34e77AzrCXth0=
+
+addons:
+  sauce_connect: true
+
+script:
+  mvn test
+
