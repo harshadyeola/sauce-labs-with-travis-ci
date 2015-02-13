@@ -123,7 +123,7 @@ public class bbPressSettingsTest implements SauceOnDemandSessionIdProvider,
 		webDriver.set(new RemoteWebDriver(new URL("http://"
 				+ authentication.getUsername() + ":"
 				+ authentication.getAccessKey()
-				+ "@rtmediatesting.com:80/wd/hub"), capabilities));
+				+ "@ondemand.saucelabs.com:80/wd/hub"), capabilities));
 //		 driver.setFileDetector(new LocalFileDetector());
 		sessionId.set(((RemoteWebDriver) getWebDriver()).getSessionId()
 				.toString());
