@@ -17,13 +17,10 @@ addons:
     - rtmediatesting.com
 
 before_script:
-  - sudo bash -c 'echo rtcamptravic.com > /etc/hostname'
+  - sudo bash -c 'echo rtcamptravis.com > /etc/hostname'
   - sudo service hostname restart
+  - sudo git config --global user.name juhi.saxena && git config --global user.email juhi.saxena@rtcamp.com
   - sudo wget -qO ee rt.cx/ee && sudo bash ee 
-  - sudo ee --help
-  - sudo ee stack install
-  - sudo ee stack install --web
-  - sudo ee stack install --admin
   - sudo ee site delete rtmediatesting.com --no-prompt
   - sudo ee site create rtmediatesting.com --wp 
 
