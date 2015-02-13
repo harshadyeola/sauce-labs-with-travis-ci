@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite hostname="rtCamp" name="webtests.SampleSauceTest" tests="1" failures="0" timestamp="12 Feb 2015 09:01:53 GMT" time="434.127" errors="0">
+  <testcase name="webDriver" time="432.182" classname="webtests.SampleSauceTest"/>
+</testsuite>

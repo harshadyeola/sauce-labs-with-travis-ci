@@ -1,0 +1,28 @@
+Configuring TestNG with: org.apache.maven.surefire.testng.conf.TestNGMapConfigurator@deb6432
+WebDriverRemoteWebDriver: chrome on XP (e7083502a0254777843ee4e6f8840e33)
+Reached Posts
+Post published. View post: message
+Post Created
+Post published. View post: message
+Anonymous Post Created
+Post published. View post: message
+Author Post Created
+Post published. View post: message
+Contributor Post Created
+Post published. View post: message
+Editor Post Created
+Post published. View post: message
+Subscriber Post Created
+rtMedia Clicked
+BuddyPress Tab Opened
+'Enable Media in Group' is already on
+rtMedia Settings Saved
+A group named test is created
+Test Admin user Created
+Test Editor Created
+Test Author Created
+Test Subscriber Created
+Test Contributor Created
+Reached dashboard
+New Forum Clicked
+TestForum published

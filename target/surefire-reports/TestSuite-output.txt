@@ -1,0 +1,52 @@
+Configuring TestNG with: org.apache.maven.surefire.testng.conf.TestNGMapConfigurator@2530c12
+WebDriverRemoteWebDriver: chrome on XP (6594fb1c9e9e436db5cce5676e695fd9)
+Reached Posts
+Post published. View post: message
+Post Created
+Post published. View post: message
+Anonymous Post Created
+Post published. View post: message
+Author Post Created
+Post published. View post: message
+Contributor Post Created
+Post published. View post: message
+Editor Post Created
+Post published. View post: message
+Subscriber Post Created
+rtMedia Clicked
+BuddyPress Tab Opened
+'Enable Media in Group' is already on
+rtMedia Settings Saved
+A group named test is created
+Test Admin user Created
+Test Editor Created
+Test Author Created
+Test Subscriber Created
+Test Contributor Created
+Reached dashboard
+New Forum Clicked
+TestForum published
+WebDriverRemoteWebDriver: chrome on XP (8f348083e33842578c4fe7fbce068c9d)
+User_login
+User_pass
+wp-submit
+Mouse over on site
+dashboard
+rtMedia
+rtMedia-bbPress
+Enable Attachment Switch is Already On
+with thumbnails + filename
+rtmedia-settings-submit
+wp-admin-bar-site-name 
+Visit Site
+Forums
+TEST Forum clicked
+Discussion 1 clicked 
+Reply Content
+File:1
+Clicked on Submit
+0 :Size
+webwidget_rating_simple 
+Like Button 
+Job link: https://saucelabs.com/jobs/8f348083e33842578c4fe7fbce068c9d?auth=b84ff595cbc6d88e695d23be372419bc
+Job link: https://saucelabs.com/jobs/8f348083e33842578c4fe7fbce068c9d?auth=b84ff595cbc6d88e695d23be372419bc
