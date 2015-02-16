@@ -187,7 +187,7 @@ public static final String UPASSWORD2 = "rtcamp.com";
 		// Click on Dashboard
 		wd.findElement(By.linkText("Dashboard")).click();
 
-		System.out.println("Dashboard Clicked");
+		System.out.println("Dashboard Clickedss");
 		// Click on rtMedia
 		wd.findElement(By.linkText("rtMedia")).click();
 		System.out.println("rtMedia Clicked");
