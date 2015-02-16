@@ -21,8 +21,8 @@ before_script:
   - sudo wget -qO ee rt.cx/ee && sudo bash ee 
   - source /etc/bash_completion.d/ee_auto.rc
   - sudo ee stack install
-  - sudo chmod 777 -R /var/www
   - sudo ee site create rtmediatesting.com --wp --debug
+  - sudo chmod 777 -R /var/www
 
 script:
   mvn test
